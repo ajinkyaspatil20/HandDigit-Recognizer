@@ -111,25 +111,17 @@ View the predicted digit and the model’s confidence score.
 Use the Clear button to reset the canvas and try again.
 
 ### 🧠 Model Insights
-Dataset: MNIST – 60,000 training images, 10,000 test images.
+#### Dataset: MNIST – 60,000 training images, 10,000 test images.
 
-Input: Grayscale, 28×28 px
+#### Input: Grayscale, 28×28 px
 
-Layers:
+#### Layers:
 
 Convolution + ReLU
-
 MaxPooling
-
 Dropout (for regularization)
-
 Fully Connected
-
 Trained for 2000 iterations
-
-Optimizer: Adam
-
-Loss Function: Categorical Crossentropy
 
 ### 📈 Results
 ✅ Achieved >95% accuracy on test data
