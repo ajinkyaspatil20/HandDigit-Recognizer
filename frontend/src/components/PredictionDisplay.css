@@ -1,0 +1,88 @@
+.prediction-display {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.prediction-result {
+  text-align: center;
+}
+
+.prediction-result h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.predicted-digit {
+  font-size: 72px;
+  font-weight: bold;
+  color: #3498db;
+  background-color: #ecf0f1;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 10px;
+  margin: 0 auto 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.confidence-text {
+  font-size: 18px;
+  color: #7f8c8d;
+  margin: 0;
+}
+
+.confidence-scores h3 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.scores-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.score-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.digit-label {
+  width: 20px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.bar-container {
+  flex-grow: 1;
+  height: 20px;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  background-color: #3498db;
+  border-radius: 10px;
+  transition: width 0.3s ease;
+}
+
+.score-value {
+  width: 70px;
+  text-align: right;
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.score-bar.highlighted .digit-label {
+  color: #e74c3c;
+}
+
+.score-bar.highlighted .bar {
+  background-color: #e74c3c;
+}
