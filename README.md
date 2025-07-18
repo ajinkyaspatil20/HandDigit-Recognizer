@@ -1,1 +1,0 @@
-# HandDigit-Recognizer
