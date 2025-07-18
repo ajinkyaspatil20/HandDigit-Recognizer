@@ -74,7 +74,7 @@ The core idea: draw a digit on a canvas → the image is processed by the backen
 ---
 
 ## 🧱 Architecture
-<img width="408" height="611" alt="image" src="https://github.com/user-attachments/assets/a7f3fdf5-31e5-4ff2-94bb-e20f64566e44" />
+<img width="408" height="500" alt="image" src="https://github.com/user-attachments/assets/a7f3fdf5-31e5-4ff2-94bb-e20f64566e44" />
 
 
 
