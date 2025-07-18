@@ -11,7 +11,7 @@ import base64
 app = Flask(__name__)
 CORS(app)
 
-
+# here we add thsis to reuse
 # Create a model similar to the one in the notebook
 def create_model():
     model = keras.Sequential(
