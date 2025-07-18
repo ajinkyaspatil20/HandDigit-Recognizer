@@ -155,8 +155,6 @@ Trained for 2000 iterations
 
 ### 👨‍💻 Contributors
 👤 Ajinkya Sunil Patil (D15B 42)
-👤 Sujal Tekwani (D15B 59)
-👤 Sushant Tulasi (D15B 60)
 
 ### 🎓 Under the guidance of Mrs. Vidya Pujari
 📍 Department of Information Technology, VESIT
